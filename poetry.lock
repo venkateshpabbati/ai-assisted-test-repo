@@ -961,7 +961,7 @@ protobuf = ["grpcio-tools (>=1.60.0)"]
 
 [[package]]
 name = "h11"
-version = "0.14.0"
+version = "0.16.0"
 description = "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
 optional = false
 python-versions = ">=3.7"
@@ -984,7 +984,8 @@ files = [
 [package.dependencies]
 anyio = ">=3.0,<5.0"
 certifi = "*"
-h11 = ">=0.13,<0.15"
+h11 = "0.16.0"
+
 sniffio = "==1.*"
 
 [package.extras]
@@ -3132,7 +3133,7 @@ files = [
 
 [package.dependencies]
 click = ">=7.0"
-h11 = ">=0.8"
+h11 = "0.16.0"
 typing-extensions = {version = ">=4.0", markers = "python_version < \"3.11\""}
 
 [package.extras]
@@ -3344,7 +3345,7 @@ files = [
 ]
 
 [package.dependencies]
-h11 = ">=0.9.0,<1"
+h11 = "0.16.0"
 
 [[package]]
 name = "yarl"
