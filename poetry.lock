@@ -1129,7 +1129,7 @@ aiohttp = ">=3.8.3,<4.0.0"
 async-timeout = {version = ">=4.0.0,<5.0.0", markers = "python_version < \"3.11\""}
 dataclasses-json = ">=0.5.7,<0.7"
 jsonpatch = ">=1.33,<2.0"
-langchain-community = ">=0.0.14,<0.1"
+langchain-community = ">=0.2.4"
 langchain-core = ">=0.16.0"
 langsmith = ">=0.0.83,<0.1"
 numpy = ">=1,<2"
